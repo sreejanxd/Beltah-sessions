@@ -14,20 +14,7 @@
       },
       "MESSAGE": {
         "description": "set session id conformation message",
-        "value": "______________________________________
-╔════◇
-║ *『 WOW YOU CHOOSEN FLASH-MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚══════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Instagram:* _https://instagram.com/france.king1_
-║❒ *Owner:* _https://wa.me/254757835036_
-║❒ *Repo:* _https://github.com/franceking1/Flash-Md_
-║❒ *WaGroup:* _https://chat.whatsapp.com/CtBGmUkwXiA6kGYAyU5MaX_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaTbb3p84Om9LRX1jg0P_
-╚══════════════════════╝ 
-_____________________________________",
+        "value": "",
         "required": false 
       }
     }   
