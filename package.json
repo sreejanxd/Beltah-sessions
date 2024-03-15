@@ -6,9 +6,9 @@
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "node Flash-Md.js"
+    "start": "node Legacy-Md.js"
   },
-  "author": "France King",
+  "author": "Brasho Kish",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
