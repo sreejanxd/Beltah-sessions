@@ -1,9 +1,9 @@
 {
-    "name": "FLASH-MD Pairing",
-    "description": "FLASH-MD WA bot, Created by France King",
-    "logo": "https://telegra.ph/file/5cd90362ad7c6cbb60069.jpg",
-    "repository": "https://github.com/franceking1/Flash-Md-Session",
-    "keywords": ["FlashMd"],
+    "name": "LEGACY-MD Pairing",
+    "description": "LEGACY-MD WA bot, Created by Brasho Kish",
+    "logo": "https://telegra.ph/file/61cc2fe7866ef604d4506.jpg",
+    "repository": "https://github.com/Brashokish/Legacy-Md-Session",
+    "keywords": ["LegacyMd"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
