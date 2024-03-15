@@ -74,7 +74,7 @@ ______________________________________
 ╚══════════════════════╝ 
 _____________________________________
 
-_Don't Forget To Givea Star To My Repo_`
+_Don't Forget To Give a Star To My Repo_`
  await Pair_Code_By_France_King.sendMessage(Pair_Code_By_France_King.user.id,{text:FLASH_MD_TEXT},{quoted:session})
  
 
