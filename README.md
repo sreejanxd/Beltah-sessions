@@ -17,7 +17,7 @@ QR- WEB - PAIR CODE FOR BOT WITH WHISKEYSOCKETS/BAILEYS
 
 
 
-[`ℹ️Contact Owner`](https://wa.me/254757835036)
+[`Contact Owner`](https://wa.me/254757835036)
 
 FORK THE REPOSITORY (Repo) 
     <br>
