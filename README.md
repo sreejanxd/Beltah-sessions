@@ -23,9 +23,7 @@ FORK THE REPOSITORY (Repo)
     <br>
 <a href="https://github.com/Brashokish/Legacy-Md-Session/fork"><img title="WEB" src="https://img.shields.io/badge/FORK LEGACY-QR?color=black&style=for-the-badge&logo=stackshare"></a>
 
-Now Deploy
-    <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Brashokish/Legacy-Md-Session' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+
 # `Owner`
 
  <a href="https://github.com/Brashokish"><img src="https://telegra.ph/file/61cc2fe7866ef604d4506.jpg" width="250" height="250" alt="Brasho Kish"/></a>
