@@ -59,19 +59,21 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Brasho_Kish.sendMessage(Qr_Code_By_Brasho_Kish.user.id, { text: '' + b64data });
 	
 				   let LEGACY_MD_TEXT = `
-*_Qr Code By Brasho Kish_*
-*_Made With 𓅃_*
+*_Qr Code By Beltah tech_*
+*_Made With 💎_*
+*made by Beltah KE*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU CHOOSEN FLASH-MD 』*
+║ *『 WOW YOU CHOOSEN BELTAH-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Instagram:* _https://instagram.com/Brashokish_
-║❒ *Owner:* _https://wa.me/254735905972_
-║❒ *Repo:* _https://github.com/Brashokish/Legacy-Md_
+║❒ *Instagram:* _https://instagram.com/audibeltah_
+║❒ *Owner:* _https://wa.me/254114141192_
+║❒ *Repo:* _https://github.com/Beltahmd/beltah-md_
 ╚══════════════════════╝ 
+*Developer : BELTAH TECH TEAM*
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
