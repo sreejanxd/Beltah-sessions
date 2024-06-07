@@ -57,21 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id, { text: '' + b64data });
 
                let LEGACY_MD_TEXT = `
-*_Pair Code for LEGACY-MD Connected_*
-*_Made With 𓅃_*
-*By Brasho Kish*
+*_CONNECTED TO THE WEBSOCKET OF 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗_*
+*_Made with 💎_*
+*By Beltah Tech*
 ______________________________________
 ╔════◇
-║ *『 THANKS FOR CHOOSING LEGACY-MD 』*
+║ *『 THANKS FOR CHOOSING BELTAH-MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╰═════════════⊷
 ╔═════◇
 ║  『••• FOR HELP VISIT•••』
-║❒ *Instagram:* _https://instagram.com/Brashokish_
-║❒ *Owner:* _https://wa.me/254735905972_
-║❒ *Repo:* _https://github.com/Brashokish/Legacy-Md_
+║❒ *Instagram:* _https://instagram.com/audibeltah_
+║❒ *Owner:* _https://wa.me/254114141192_
+║❒ *Repo:* _https://github.com/Beltahmd/beltah-md_
 ╰═════════════⊷ 
-_____________________________________
+_____DEVELOPER :BELTAH-TECH___________
 
 _Don't Forget To Give a Star To My Repo_`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
