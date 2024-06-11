@@ -59,23 +59,26 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Brasho_Kish.sendMessage(Qr_Code_By_Brasho_Kish.user.id, { text: '' + b64data });
 	
 				   let LEGACY_MD_TEXT = `
-*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
+*BELTAH-MD QR CONNECTED TO YOUR DEVICE*
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
- *THANKS FOR CHOOSING BELTAH-MD*
-_You Have Completed the First Step to Deploy a Whatsapp Bot._
+*FOLLOW OUR CHANNEL *
+𓄂 *https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F*
 
-*FOLLOW our channel*
-𓄂https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F
+*JOIN OUR GROUP *
+𓄂 *https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI*
 
-*Join our group*
-𓄂https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI
+*VISIT FOR TUTORIALS *
+𓄂 *https://www.youtube.com/@Beltahtech2024*
 
-*VISIT for Tutorials*
-𓄂https://www.youtube.com/@Beltahtech2024
+*DEVELOPER: BELTAH TECH*
+𓄂 *https://wa.me/254114141192*
 
-*POWERED BY BELTAH TECH*
+*POWERED BY BELTAH TECH* *MADE WITH 💎*
 
-_Don't Forget To Give a Star To My Repo_`
+_Make sure you leave a Star To My Repo_`
 	 await Qr_Code_By_Brasho_Kish.sendMessage(Qr_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
 
 
