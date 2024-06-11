@@ -59,23 +59,23 @@ router.get('/', async (req, res) => {
                let LEGACY_MD_TEXT = `
 
 *BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 ♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
-*FOLLOW OUR CHANNEL *
+*FOLLOW OUR CHANNEL*
 𓄂 *https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F*
 
-*JOIN OUR GROUP *
+*JOIN OUR GROUP*
 𓄂 *https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI*
 
-*VISIT FOR TUTORIALS *
+*VISIT FOR TUTORIALS*
 𓄂 *https://www.youtube.com/@Beltahtech2024*
 
 *DEVELOPER: BELTAH TECH*
 𓄂 *https://wa.me/254114141192*
 
-*POWERED BY BELTAH TECH* *MADE WITH 💎*
+*POWERED BY BELTAH TECH AND MADE WITH 💎*
 
 _Make sure you leave a Star To My Repo_`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
