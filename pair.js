@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
                 },
                 printQRInTerminal: false,
                 logger: pino({level: "fatal"}).child({level: "fatal"}),
-                browser: ["Chrome (Linux)", "", ""]
+                browser: ["Chrome (Ubuntu)", "Chrome (Linux)", "Chrome (MacOs)"]
              });
              if(!Pair_Code_By_Brasho_Kish.authState.creds.registered) {
                 await delay(1500);
@@ -57,21 +57,22 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id, { text: '' + b64data });
 
                let LEGACY_MD_TEXT = `
-*_CONNECTED TO THE WEBSOCKET OF 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗_*
-*_Made with 💎_*
-*By Beltah Tech*
-______________________________________
-╔════◇
-║ *『 THANKS FOR CHOOSING BELTAH-MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╰═════════════⊷
-╔═════◇
-║  『••• FOR HELP VISIT•••』
-║❒ *Instagram:* _https://instagram.com/audibeltah_
-║❒ *Owner:* _https://wa.me/254114141192_
-║❒ *Repo:* _https://github.com/Beltahmd/beltah-md_
-╰═════════════⊷ 
-_____DEVELOPER :BELTAH-TECH___________
+
+*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
+
+ *THANKS FOR CHOOSING BELTAH-MD*
+_You Have Completed the First Step to Deploy a Whatsapp Bot._
+
+*FOLLOW our channel*
+𓄂https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F
+
+*Join our group*
+𓄂https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI
+
+*VISIT for Tutorials*
+𓄂https://www.youtube.com/@Beltahtech2024
+
+*POWERED BY BELTAH TECH*
 
 _Don't Forget To Give a Star To My Repo_`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
