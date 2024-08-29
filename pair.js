@@ -58,24 +58,24 @@ router.get('/', async (req, res) => {
 
                let LEGACY_MD_TEXT = `
 
-*BELTAH-MD PAIR CODE SUCCESSFULLY CONNECTED*
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
-♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
-♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+*TREX-MD PAIR CODE CONNECTED TO YOUR DEVICE*
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+♡♡ *THANK YOU FOR CHOOSING TREX-MD* ♡♡
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
-*FOLLOW OUR CHANNEL*
-𓄂 *https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F*
+*FOLLOW OUR CHANNEL *
+𓄂 *https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q*
 
-*JOIN OUR GROUP*
-𓄂 *https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI*
+*JOIN OUR GROUP *
+𓄂 *https://chat.whatsapp.com/D3iyJB5hrhF7ov7JxgW92C*
 
-*VISIT FOR TUTORIALS*
-𓄂 *https://www.youtube.com/@Beltahtech2024*
+*VISIT FOR TUTORIALS *
+𓄂 *https://www.youtube.com/@BERA_TECH*
 
-*DEVELOPER: BELTAH TECH*
-𓄂 *https://wa.me/254114141192*
+*DEVELOPER: BERA TECH*
+𓄂 *https://wa.me/254743982206*
 
-*POWERED BY BELTAH TECH AND MADE WITH 💎*
+*POWERED BY BERA TECH* *MADE WITH 💎*
 
 _Make sure you leave a Star To My Repo_`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
