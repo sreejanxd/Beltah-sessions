@@ -59,24 +59,24 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Brasho_Kish.sendMessage(Qr_Code_By_Brasho_Kish.user.id, { text: '' + b64data });
 	
 				   let LEGACY_MD_TEXT = `
-*BELTAH-MD QR CONNECTED TO YOUR DEVICE*
+*TREX-MD QR CONNECTED TO YOUR DEVICE*
 ♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
-♡♡ *THANK YOU FOR CHOOSING BELTAH-MD* ♡♡
+♡♡ *THANK YOU FOR CHOOSING TREX-MD* ♡♡
 ♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
 *FOLLOW OUR CHANNEL *
-𓄂 *https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F*
+𓄂 *https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q*
 
 *JOIN OUR GROUP *
-𓄂 *https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI*
+𓄂 *https://chat.whatsapp.com/D3iyJB5hrhF7ov7JxgW92C*
 
 *VISIT FOR TUTORIALS *
-𓄂 *https://www.youtube.com/@Beltahtech2024*
+𓄂 *https://www.youtube.com/@BERA_TECH*
 
-*DEVELOPER: BELTAH TECH*
-𓄂 *https://wa.me/254114141192*
+*DEVELOPER: BERA TECH*
+𓄂 *https://wa.me/254743982206*
 
-*POWERED BY BELTAH TECH* *MADE WITH 💎*
+*POWERED BY BERA TECH* *MADE WITH 💎*
 
 _Make sure you leave a Star To My Repo_`
 	 await Qr_Code_By_Brasho_Kish.sendMessage(Qr_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
