@@ -58,24 +58,24 @@ router.get('/', async (req, res) => {
 
                let LEGACY_MD_TEXT = `
 
-*TREX-MD PAIR CODE CONNECTED TO YOUR DEVICE*
+*SREEJAN-XD PAIR CODE CONNECTED TO YOUR DEVICE*
 ♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
-♡♡ *THANK YOU FOR CHOOSING TREX-MD* ♡♡
+♡♡ *THANK YOU FOR CHOOSING SREEJAN-XD* ♡♡
 ♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
 
 *FOLLOW OUR CHANNEL *
-𓄂 *https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q*
+𓄂 *https://whatsapp.com/channel/0029VaqdVpYGU3BTWmGp5Z2r*
 
 *JOIN OUR GROUP *
-𓄂 *https://chat.whatsapp.com/D3iyJB5hrhF7ov7JxgW92C*
+𓄂 *https://whatsapp.com/channel/0029VaqdVpYGU3BTWmGp5Z2r*
 
 *VISIT FOR TUTORIALS *
-𓄂 *https://www.youtube.com/@BERA_TECH*
+𓄂 *https://www.youtube.com/@Oyysreejan*
 
 *DEVELOPER: BERA TECH*
-𓄂 *https://wa.me/254743982206*
+𓄂 *https://wa.me/917439382677*
 
-*POWERED BY BERA TECH* *MADE WITH 💎*
+*POWERED BY OYY SREEJAN* *MADE WITH 💎*
 
 _Make sure you leave a Star To My Repo_`
  await Pair_Code_By_Brasho_Kish.sendMessage(Pair_Code_By_Brasho_Kish.user.id,{text:LEGACY_MD_TEXT},{quoted:session})
